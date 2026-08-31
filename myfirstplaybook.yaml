@@ -1,0 +1,19 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+   - name: task01 (apt-get install)
+     apt:
+       name: git
+       state: present
+
+   - name: task02 (apt-get tree)
+     apt:
+       name: tree
+       state: present
+
+   - name: task03 (apt-get wget)
+     apt:
+       name: apache2
+       state: present
+

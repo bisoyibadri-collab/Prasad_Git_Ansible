@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: i want to install web server (apt-get install apache2)
+      apt:
+        name: apache2
+        state: present
+      # state: absent (if u want to un-install the apache2 webserver)
+        

@@ -1,0 +1,21 @@
+---
+- myStudent:
+  - name: anil
+    phone number: 89898989
+    address:
+       dorr no: 12
+       street no: 32
+       pincode: 761118
+  - name: sunil
+    phone number: 9898989898
+    address:
+       dorr no: 21
+       street no: 32
+       pincode: 761118
+  - name: venil
+    phone number: 7878787878
+    address:
+       door no: 32
+       street no: 32
+       pincode: 761118
+
