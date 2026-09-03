@@ -14,8 +14,8 @@
         name: apache2
         state: started
       when: ansible_os_family == "Debian"
-    - name: i want to install webserv on radhat nodes(yum install httpd)
-      yum:
+    - name: i want to install webserv on radhat nodes(service httpd start)
+
       service:
         name: https
         state: started
